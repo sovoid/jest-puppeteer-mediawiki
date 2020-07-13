@@ -1,0 +1,24 @@
+{
+  "name": "jest-puppeteer-preset-mediawiki",
+  "description": "Run your Mediawiki tests using Jest & Puppeteer.",
+  "version": "1.1.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/und3fined-v01d/puppeteer-mediawiki/tree/master/jest-puppeteer-preset-mediawiki",
+  "author": "Soham Parekh <soham.parekh1998@gmail.com>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "jest",
+    "puppeteer",
+    "jest-puppeteer",
+    "chromeless",
+    "chrome-headless",
+    "jest-preset",
+    "mediawiki"
+  ],
+  "peerDependencies": {
+    "puppeteer": ">= 1.5.0"
+  },
+  "dependencies": {
+    "jest-environment-puppeteer-mediawiki": "^1.0.5"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "jest-environment-puppeteer-mediawiki",
+  "description": "Puppeteer environment for Jest tests in Mediawiki.",
+  "version": "1.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/und3fined-v01d/puppeteer-mediawiki/tree/master/jest-environment-puppeteer-mediawiki",
+  "author": "Soham Parekh <soham.parekh1998@gmail.com>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "jest",
+    "jest-environment",
+    "puppeteer",
+    "jest-puppeteer",
+    "chromeless",
+    "chrome-headless",
+    "mediawiki"
+  ],
+  "scripts": {
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "jest-environment-node": "26.1.0",
+    "jest-environment-puppeteer": "4.4.0",
+    "mkdirp": "1.0.4",
+    "puppeteer": "4.0.1",
+    "rimraf": "3.0.2"
+  }
+}

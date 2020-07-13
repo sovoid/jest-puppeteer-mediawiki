@@ -1,0 +1,5 @@
+{
+    "globalSetup": "jest-environment-puppeteer-mediawiki/setup",
+    "globalTeardown": "jest-environment-puppeteer-mediawiki/teardown",
+    "testEnvironment": "jest-environment-puppeteer-mediawiki"
+}
